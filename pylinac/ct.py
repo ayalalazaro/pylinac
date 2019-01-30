@@ -651,7 +651,7 @@ class CTP528(CatPhanModule):
             self.start_angle = 0
             self.ccw = False
         elif isinstance(catphan, CatPhan600):
-            self.start_angle = np.pi - 0.1
+            self.start_angle = np.pi
             self.ccw = False
         elif isinstance(catphan, CatPhan604):
             self.start_angle = np.pi
